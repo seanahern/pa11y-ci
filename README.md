@@ -68,9 +68,20 @@ By default, Pa11y CI looks for a config file in the current working directory, n
 
 You can use the `--config` command line argument to specify a different file, which can be either JSON or JavaScript. The config files should look like this:
 
+`json`
 ```json
 {
     "urls": [
+        "http://pa11y.org/",
+        "http://pa11y.org/contributing"
+    ]
+}
+```
+
+`javascript`
+```
+module.exports = {
+    "url": [
         "http://pa11y.org/",
         "http://pa11y.org/contributing"
     ]
