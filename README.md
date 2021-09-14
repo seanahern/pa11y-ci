@@ -79,7 +79,7 @@ You can use the `--config` command line argument to specify a different file, wh
 ```
 
 `javascript`
-```
+```JavaScript
 module.exports = {
     "url": [
         "http://pa11y.org/",
